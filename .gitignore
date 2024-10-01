@@ -1,0 +1,8 @@
+# Ignore output files and binaries
+*.o
+*.out
+*.exe
+*.obj
+*.a
+*.so
+/output/
