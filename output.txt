@@ -1,3 +1,25 @@
-2 3 4 5 6 sum =20
-4 5 6 7 8 sum =30
-2 3 4 5 6 7 sum =27
+ aga 0
+ pora 1
+ aga 0
+ pora 1
+ aga 0
+ pora 1
+ aga 0
+ pora 1
+ aga 0
+ pora 1
+ aga 1
+ pora 2
+ aga 1
+ pora 2
+ aga 1
+ pora 2
+ aga 1
+ pora 2
+ aga 2
+ pora 3
+2
+2
+3
+1
+2
