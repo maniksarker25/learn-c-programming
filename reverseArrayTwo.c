@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int a[100000];
+int b[100000];
 int main()
 {
     int length;
@@ -10,28 +11,22 @@ int main()
         scanf("%d", &a[i]);
     }
 
-
-
-
-    int delIndex;
-    scanf("%d", &delIndex);
-
-    if(delIndex < 0 || delIndex >=length){
-        printf("Wrong index!\n");
-        return;
-    }
-
-    for (int i = delIndex; i < length -1; i++)
+    // make copy b array with reverse
+    for (int i = 0, j = length - 1; i < length; i++, j--)
     {
-        a[i] = a[i + 1];
+        b[j] = a[i];
     }
-    length--;
 
-    // print updated array
+    // then the b array set in a array
+    for (int i = 0; i < length; i++)
+    {
+        a[i] = b[i];
+    }
+
+    // print two arrays
     for (int i = 0; i < length; i++)
     {
         printf("%d ", a[i]);
     }
-
     return 0;
 }
