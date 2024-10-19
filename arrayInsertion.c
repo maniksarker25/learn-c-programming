@@ -16,7 +16,7 @@ int main(){
     // increase the length by one 
     length++;
 
-    //then send all to one step right => lest index to insertion index
+    //then send all to one step right => it make last index to insertion index
     for(int i = length-1;i>=index;i--){
         a[i+1] = a[i];
     }
