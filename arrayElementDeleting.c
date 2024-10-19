@@ -11,8 +11,16 @@ int main()
     }
 
 
+
+
     int delIndex;
     scanf("%d", &delIndex);
+
+    if(delIndex < 0 || delIndex >=length){
+        printf("Wrong index!\n");
+        return;
+    }
+
     for (int i = delIndex; i < length -1; i++)
     {
         a[i] = a[i + 1];
