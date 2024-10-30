@@ -1,4 +1,4 @@
-   // if (flag == 0)
-            // {
-            //     break;
-            // }
+ // else
+    // {
+    //     printf("Error\n");
+    // }
