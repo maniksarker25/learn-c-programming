@@ -1,4 +1,4 @@
-// return + parameter function 
+// function :  return + parameter
 #include<stdio.h>
 
 
