@@ -1,1 +1,2 @@
-result = 30
+First result =>7
+Second result =>90
