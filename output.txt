@@ -1,2 +1,3 @@
-First result =>7
-Second result =>90
+ Result => 70
+Lower case
+Uppercase
