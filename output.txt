@@ -1,1 +1,1 @@
-result = 55
+string length=> 11
