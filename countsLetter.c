@@ -1,3 +1,5 @@
+// count letter with frequency
+
 #include <stdio.h>
 #include <string.h>
 char s[10000001];
