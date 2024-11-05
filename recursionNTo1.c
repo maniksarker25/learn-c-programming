@@ -11,6 +11,10 @@ void fun(int x, int n)
     fun(x + 1, n);
 
     // print the x after call function and that print 10 to 1 because that print work when the recursion going back after completing the task
+    if (x >= 1 && x < n)
+    {
+        printf(" ");
+    }
     printf("%d", x);
 }
 
