@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// git push in ubuntu
 int main(){
     char c;
     scanf("%c",&c);
